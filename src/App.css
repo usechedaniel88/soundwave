@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poppins:wght@100&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+
+}
+
 body{
   background-color: #2F303A;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
