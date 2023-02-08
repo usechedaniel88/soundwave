@@ -12,17 +12,17 @@ export function Footer(): JSX.Element{
     <Card.Footer  >
     <Container>
       <Row className="justify-content-center">
-        <Col xs={12} md={3}>
+        <Col xs={3} md={3}>
           <p>About Us</p>
         </Col>
-        <Col xs={12} md={3}>
+        <Col xs={3} md={3}>
           <p>Contact</p>
         </Col>
-        <Col xs={12} md={3}>
+        <Col xs={3} md={3}>
           <Image src={twitterlogo} alt="Twitter logo" />
           <p>Twitter</p>
         </Col>
-        <Col xs={12} md={3}>
+        <Col xs={3} md={3}>
           <Image src={facebooklogo} alt="Facebook logo" />
           <p>Facebook</p>
         </Col>

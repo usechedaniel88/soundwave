@@ -7,7 +7,7 @@ export function Navigation(): JSX.Element {
         <Nav className="mx-auto">
             <Navbar.Brand href="/" className="d-flex align-items-center h-100">
             <img src={logo} width="50" height="50" className="d-inline-block align-middle me-3" alt="Soundwave logo" />{' '}
-            <span className="align-middle" style={{ fontSize: '24px', color: 'white'}}>Soundwave</span>
+            <span className="align-middle" style={{ fontSize: '24px'}}>Soundwave</span>
             </Navbar.Brand>
         </Nav>
     <Nav className="mx-auto">
