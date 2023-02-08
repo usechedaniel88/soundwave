@@ -1,28 +1,20 @@
 import React from 'react'
-import microphone from '../assets/microphone.svg'
-import albums from '../assets/albums.svg'
-import more from '../assets/more.svg'
-import covers from '../assets/covers.jpg'
+import microphone from "../assets/microphone.svg"
+import albums from "../assets/albums.svg"
+import more from "../assets/more.svg"
+import covers from "../assets/covers-soundwave.jpeg"
+import DiscoverNewMusicCard from '../components/DiscoverNewMusicCard'
+import { Footer } from "../components/Footer";
 
 type Props = {}
 
 const Discover = (props: Props) => {
-    return (
-        <section>
-            <h1>Discover new music</h1>
-            <img src={microphone}></img>
-            <p>Charts</p>
-            <img src={albums}></img>
-            <p>Albums</p>
-            <img src={more}></img>
-            <p>More</p>
-            <p>
-                By joining 
-            </p>
-            <img src={covers}></img>
-        </section>
-    )
-
+  return (
+    <>
+    <DiscoverNewMusicCard/>
+   
+    <Footer />
+    </> 
+  )
 }
-
-export default Discover
+export default Discover;
