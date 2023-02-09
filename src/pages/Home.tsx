@@ -13,9 +13,9 @@ const Home = (props: Props) =>{
                     </Col>
                     <Col>
                     <FeelTheMusicCard /></Col>
-                    <div style={{ width: '100px', height: '100px', background: '#bc3a801a', zIndex:'-1', borderRadius: '50%', top:'200px', left:'200px', position:'fixed'}}></div>
-                    <div></div>
-                    <div></div>
+                    <div style={{ width: '100px', height: '100px', background: '#bc3a801a', zIndex:'-1', borderRadius: '50%', bottom:'20px', left:'20px', position:'fixed'}}></div>
+                    <div style={{ width: '100px', height: '100px', background: '#3457b21a', zIndex:'-1', borderRadius: '50%', top:'100px', left:'80px', position:'fixed'}}></div>
+                    <div style={{ width: '150px', height: '150px', background: '#3457b21a', zIndex:'-1', borderRadius: '50%', bottom:'-40px', right:'-40px', position:'fixed'}}></div>
                 </Row>
     )
 }

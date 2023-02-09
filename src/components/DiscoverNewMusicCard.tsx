@@ -17,10 +17,10 @@ const DiscoverNewMusicCard = (props: Props) => {
     
     <Container style={styles2}>
         <Row>
-            <Col>Discover new music</Col>
+            <Col><h1>Discover new music</h1></Col>
         </Row>
         <Row>
-            <Col><Image src={microphone} />Charts</Col>
+            <Col style={{border: '1px solid red', backgroundColor:'#202027'}}><Image style={{backgroundColor:'#2F303A'}} src={microphone} />Charts</Col>
             <Col><Image src={albums} />Albums</Col>
             <Col><Image src={more} />More</Col>
         </Row>
