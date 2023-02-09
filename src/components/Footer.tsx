@@ -7,9 +7,9 @@ type Props = {}
 
 export function Footer(): JSX.Element{
   return (
-    <footer>
+    <footer style={{ width: '100vw',}}>
     <Card className="bg-dark" >
-    <Card.Footer  >
+    <Card.Footer>
     <Container>
       <Row className="justify-content-center">
         <Col xs={3} md={3}>
